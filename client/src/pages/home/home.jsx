@@ -8,7 +8,7 @@ const Home = () => {
     const [argonautes, setArgonautes] = useState([]);
     const [errors, setErrors] = useState('');
     const [loading, setLoading] = useState(true);
-    const api = 'http://localhost:8000/api/argonaut';
+    const api = 'http://localhost:8000/api/argonautes';
 
     useEffect(() => {
         axios.get(api)
