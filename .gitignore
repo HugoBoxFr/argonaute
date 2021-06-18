@@ -1,0 +1,46 @@
+### front ###
+
+# dependencies
+client/node_modules
+client/.pnp
+client/.pnp.js
+
+# testing
+client/coverage
+
+# production
+client//build
+
+# misc
+client/.DS_Store
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+
+### server ###
+
+###> symfony/framework-bundle ###
+server/.env.local
+server/.env.local.php
+server/.env.*.local
+server/config/secrets/prod/prod.decrypt.private.php
+server/public/bundles/
+server/var/
+server/vendor/
+###< symfony/framework-bundle ###
+
+###> symfony/phpunit-bridge ###
+server.phpunit.result.cache
+server/phpunit.xml
+###< symfony/phpunit-bridge ###
+
+###> phpunit/phpunit ###
+server/phpunit.xml
+server.phpunit.result.cache
+###< phpunit/phpunit ###

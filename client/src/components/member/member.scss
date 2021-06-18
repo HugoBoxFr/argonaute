@@ -1,0 +1,24 @@
+.member {
+    position: relative;
+    
+    .spinner {
+        position: absolute;
+        top: 55px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    
+        .spinner-grow {
+            margin: 2px;
+        }
+        
+        .spinner-custom {
+            background: #f76c6c;
+        }
+    }
+}
+
+.member-list {
+    margin-bottom: 100px;
+}
+

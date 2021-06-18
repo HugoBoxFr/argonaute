@@ -1,0 +1,27 @@
+
+.argo-form {
+    position: relative;
+
+    .space {
+        width: 10px;
+    }
+    
+    .btn-custom {
+        background: #f76c6c;
+        color: white;
+    }
+    
+    .btn-custom:hover {
+        background: #e64f4f !important;
+    }
+    
+    .btn:hover {
+        color: white;
+    }
+
+    .msgError {
+        position: absolute;
+        margin-top: -15px;
+        font-size: 10px;
+    }
+}
